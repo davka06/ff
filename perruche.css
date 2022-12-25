@@ -87,6 +87,7 @@ ul li a:hover::before {
   width: 60px;
   z-index: 1;
   margin-bottom: 30%;
+  margin-left: 90%;
   filter: invert(100%);
 }
 
