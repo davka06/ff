@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+
 .video {
     position: fixed;
     right: 0;
@@ -8,24 +9,6 @@ body{
     min-width: 100%; 
     min-height: 100%;
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
 .navbar {
     overflow: hidden;
@@ -46,7 +29,7 @@ body{
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 17px;
-    width: 185px;
+    width: 157.9px;
 }
   
 .navbar a:hover {

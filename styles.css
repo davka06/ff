@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-  background: linear-gradient(45deg,#ffcc00, #ff0c5a);    /* цвет фона */
   font: normal 16px 'Roboto', sans-serif;                     /* шрифт по умолчанию */
   margin-left: auto;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* #ffcc00, #ff0c5a */
 
 .partie_1 p {
     color: #283246;                 /* цвет текста в заголовке */
@@ -206,7 +223,7 @@ a {
   text-decoration: none;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   font-size: 17px;
-  width: 183px;
+  width: 157.5px;
 }
 
 .navbar a:hover {
