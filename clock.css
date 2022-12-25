@@ -122,9 +122,9 @@ body {
     width: 100%;
     margin-left:  0;
     z-index: 1;
-}
+  }
   
-.navbar a {
+  .navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -133,14 +133,13 @@ body {
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 17px;
-    width: 303px;
-}
-
-.navbar a:hover {
+    width: 219.3px;
+  }
+  
+  .navbar a:hover {
     background: #ddd;
     color: black;
-}
-
+  }
 
 
 

@@ -185,21 +185,21 @@ table td {
     width: 100%;
     margin-left:  0;
     z-index: 1;
-}
+  }
   
-.navbar a {
+  .navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    width: 303px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-
-.navbar a:hover {
+    font-size: 17px;
+    width: 219.3px;
+  }
+  
+  .navbar a:hover {
     background: #ddd;
     color: black;
-}
+  }
