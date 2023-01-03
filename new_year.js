@@ -13,7 +13,27 @@ let hr_dot = document.querySelector(".hr_dot");
 let min_dot = document.querySelector(".min_dot");
 let sec_dot = document.querySelector(".sec_dot");
 
+const dataPicker = document.querySelector("#dataPicker");
 let endDate = "01/01/2023 00:00:00";
+
+if (localStorage.getItem("endDate")) {
+    endDate = localStorage.getItem("endDate");
+}
+
+dataPicker.addEventListener("change", function(e) {
+    const chosenDate = e.target.value;
+
+
+    endDate = chosenDate + " 00:00:00";
+    localStorage.setItem("endDate", endDate);
+})
+
+
+
+
+
+
+
 
 let x = setInterval(function(){
     let now = new Date(endDate).getTime();
