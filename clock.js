@@ -15,22 +15,3 @@ setInterval(() => {
     sec.style.transform = `rotateZ(${ss}deg)`;    
     
 });
-
-
-
-
-
-
-
-
-/* const themeToggleBtn = document.querySelector(".theme-toggler");
-const clock = document.querySelector(".clock");
-const calculator = document.querySelector(".calculator");
-const toggleIcon = document.querySelector(".toggler-icon");
-let isDark = true;
-themeToggleBtn.onclick = () => {
-  clock.classList.toggle("dark");
-  calculator.classList.toggle("dark");
-  themeToggleBtn.classList.toggle("active");
-  isDark = !isDark;
-}; */

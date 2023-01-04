@@ -107,12 +107,7 @@ body {
     border-radius: 2px;
 }
 
-
-
-
-
-
-
+/* nav bar */
 
 .navbar {
     overflow: hidden;
@@ -122,9 +117,9 @@ body {
     width: 100%;
     margin-left:  0;
     z-index: 1;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -133,13 +128,13 @@ body {
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 17px;
-    width: 192px;
-  }
+    width: 182px;
+}
   
-  .navbar a:hover {
+.navbar a:hover {
     background: #ddd;
     color: black;
-  }
+}
 
 
 

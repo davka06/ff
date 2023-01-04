@@ -1,74 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Countdown Time</title>
-    <link href="new_year.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
+<html lang="fr">
 
-	<div class="navbar">
-		<a href="index.html">Главная</a>
-		<a href="calculator.html">Калькулятор</a>
-		<a href="clock.html">Часы</a>
-		<a href="tictactoe.html">Игра</a>
-		<a href="family.html">Семья</a>
-		<a href="video.html">Видео</a>
-		<a href="new_year.html">Отсчёт</a>
-		<a href="perruche.html">Попугаи</a>
-	</div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Countdown Time</title>
+        <link href="new_year.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
 
-        <div id="time">
+    <body>
+
+        <div class="navbar">
+            <a href="index.html">Principale</a>
+            <a href="calculator.html">Calculatrice</a>
+            <a href="clock.html">Horloge</a>
+            <a href="tictactoe.html">Jeu</a>
+            <a href="family.html">Famille</a>
+            <a href="video.html">Video</a>
+            <a href="new_year.html">Timer</a>
+            <a href="perruche.html">Perruches</a>
+        </div>
+
+            <div id="time">
+                
+                    <div class="circle" style="--clr:#fff;">
+                        <div class="dots day_dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="dd"></circle>
+                        </svg>
+                        <div id="days">00<br><span>Days</span></div>
+                    </div>
+
+                    <div class="circle" style="--clr:#ff2972;">
+                        <div class="dots hr_dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="hh"></circle>
+                        </svg>
+                        <div id="hours">00<br><span>Hours</span></div>
+                    </div>
+
+                    <div class="circle" style="--clr:#fee800;">
+                        <div class="dots min_dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="mm"></circle>
+                        </svg>
+                        <div id="minutes">00<br><span>Minutes</span></div>
+                    </div>
+
+                    <div class="circle" style="--clr:#04fc43;">
+                        <div class="dots sec_dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="ss"></circle>
+                        </svg>
+                        <div id="seconds">00<br><span>Secondes</span></div>
+                    </div>
+
+            </div>
+
+            <div class="container">
+                <input type="date" id="dataPicker" min="2022-12-30" max="3000-01-01">
+            </div>
             
-                <div class="circle" style="--clr:#fff;">
-                    <div class="dots day_dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70" id="dd"></circle>
-                    </svg>
-                    <div id="days">00<br><span>Days</span></div>
-                </div>
+        <h2 class="newYear"><span>DATE EXPIRÉ !</span></h2>
 
-                <div class="circle" style="--clr:#ff2972;">
-                    <div class="dots hr_dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70" id="hh"></circle>
-                    </svg>
-                    <div id="hours">00<br><span>Hours</span></div>
-                </div>
+        <script src="new_year.js"></script>
 
-                <div class="circle" style="--clr:#fee800;">
-                    <div class="dots min_dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70" id="mm"></circle>
-                    </svg>
-                    <div id="minutes">00<br><span>Minutes</span></div>
-                </div>
+    </body>
 
-                <div class="circle" style="--clr:#04fc43;">
-                    <div class="dots sec_dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70" id="ss"></circle>
-                    </svg>
-                    <div id="seconds">00<br><span>Secondes</span></div>
-                </div>
-
-        </div>
-
-        <div class="container">
-            <input type="date" id="dataPicker" min="2022-12-30" max="3000-01-01">
-        </div>
-        
-    <h2 class="newYear"><span>DATE EXPIRED !</span></h2>
-
-    <script src="new_year.js"></script>
-    
-
-
-</body>
 </html>
